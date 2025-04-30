@@ -1,0 +1,66 @@
+2024-08-09 16:37:07,957 - ERROR - Error fetching data from InfluxDB: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-08-09 16:37:07,960 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-12 08:34:13,560 - ERROR - Error fetching data from InfluxDB: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-08-12 08:34:13,560 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-12 09:55:06,930 - ERROR - Error fetching data from InfluxDB: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-08-12 09:55:06,931 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-12 12:33:58,109 - ERROR - Error fetching data from InfluxDB: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-08-12 12:33:58,109 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-12 16:26:33,421 - ERROR - Error fetching data from InfluxDB: HTTPConnectionPool(host='192.168.0.246', port=8086): Read timed out. (read timeout=9.999883499986026)
+2024-08-13 09:15:23,518 - ERROR - Error fetching data from InfluxDB: HTTPConnectionPool(host='192.168.0.246', port=8086): Read timed out. (read timeout=9.999819147982635)
+2024-08-13 09:15:23,518 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-13 09:18:26,578 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff373d7590>: Failed to establish a new connection: [Errno 113] No route to host
+2024-08-13 09:18:26,578 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-13 09:21:26,580 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff373d8450>: Failed to establish a new connection: [Errno 101] Network is unreachable
+2024-08-13 09:21:26,580 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-13 13:55:27,478 - ERROR - Error fetching data from InfluxDB: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-08-13 13:55:27,478 - ERROR - Error fetching data, retrying in 3 minutes.
+2024-08-13 20:29:22,812 - ERROR - Error in main loop: Addr 0: Incorrect response -6.
+2024-08-13 20:32:34,477 - ERROR - Recording duration too short, likely an error occurred: data/20240813/20240813-203234-tip6-37.wav
+2024-08-13 20:32:34,477 - ERROR - Error in main loop: Addr 0: Incorrect response -6.
+2024-08-13 20:38:51,986 - ERROR - Recording duration too short, likely an error occurred: data/20240813/20240813-203851-tip6-41.wav
+2024-08-13 20:38:51,986 - ERROR - Error in main loop: Addr 0: Incorrect response -6.
+2024-08-13 20:43:09,169 - ERROR - Recording duration too short, likely an error occurred: data/20240813/20240813-204309-tip6-43.wav
+2024-08-13 20:43:09,169 - ERROR - Error in main loop: Addr 0: Incorrect response -6.
+2024-08-14 08:49:42,016 - ERROR - Error fetching data from InfluxDB: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'unauthorized', 'Date': 'Tue, 13 Aug 2024 23:49:41 GMT', 'Content-Length': '55'})
+HTTP response body: b'{"code":"unauthorized","message":"unauthorized access"}'
+
+2024-08-14 08:49:53,919 - ERROR - Error fetching data from InfluxDB: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'unauthorized', 'Date': 'Tue, 13 Aug 2024 23:49:53 GMT', 'Content-Length': '55'})
+HTTP response body: b'{"code":"unauthorized","message":"unauthorized access"}'
+
+2024-08-14 15:04:50,851 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7ffed9eb0a90>: Failed to establish a new connection: [Errno 113] No route to host
+2024-08-14 16:08:22,392 - ERROR - Error fetching data from InfluxDB: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'unauthorized', 'Date': 'Wed, 14 Aug 2024 07:08:22 GMT', 'Content-Length': '55'})
+HTTP response body: b'{"code":"unauthorized","message":"unauthorized access"}'
+
+2024-08-14 16:08:48,247 - ERROR - Error fetching data from InfluxDB: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'unauthorized', 'Date': 'Wed, 14 Aug 2024 07:08:48 GMT', 'Content-Length': '55'})
+HTTP response body: b'{"code":"unauthorized","message":"unauthorized access"}'
+
+2024-08-14 16:11:57,759 - ERROR - Failed to send file to server: [Errno 2] No such file
+2024-08-14 16:13:08,397 - ERROR - Failed to send file to server: [Errno 2] No such file
+2024-08-14 16:14:08,819 - ERROR - Failed to send file to server: [Errno 2] No such file
+2024-08-14 16:16:19,400 - ERROR - Failed to send file: [Errno 2] No such file
+2024-08-14 16:17:30,021 - ERROR - Failed to send file: [Errno 2] No such file
+2024-08-14 16:19:44,543 - ERROR - Failed to send file: [Errno 2] No such file
+2024-08-14 16:27:28,232 - ERROR - Failed to send file: [Errno 2] No such file
+2024-08-14 16:28:28,534 - ERROR - Failed to send file: [Errno 2] No such file
+2024-08-14 16:29:38,404 - ERROR - Failed to send file: [Errno 2] No such file
+2024-08-14 16:46:09,476 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff25ec6f10>: Failed to establish a new connection: [Errno 113] No route to host
+2024-08-14 16:47:12,548 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff25ed2d50>: Failed to establish a new connection: [Errno 113] No route to host
+2024-08-14 16:48:15,620 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff25ee4350>: Failed to establish a new connection: [Errno 113] No route to host
+2024-08-14 16:49:18,692 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff25ee59d0>: Failed to establish a new connection: [Errno 113] No route to host
+2024-08-21 09:53:42,681 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff945f3510>: Failed to establish a new connection: [Errno 111] Connection refused
+2024-08-21 09:54:52,693 - ERROR - Error fetching data from InfluxDB: (<urllib3.connection.HTTPConnection object at 0x7fff939fc750>, 'Connection to 192.168.0.246 timed out. (connect timeout=10.0)')
+2024-08-21 09:55:52,695 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff939fd610>: Failed to establish a new connection: [Errno 111] Connection refused
+2024-08-21 09:56:52,696 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff939febd0>: Failed to establish a new connection: [Errno 111] Connection refused
+2024-08-21 17:06:06,306 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff93a341d0>: Failed to establish a new connection: [Errno 111] Connection refused
+2024-08-21 17:07:16,318 - ERROR - Error fetching data from InfluxDB: (<urllib3.connection.HTTPConnection object at 0x7fff945d28d0>, 'Connection to 192.168.0.246 timed out. (connect timeout=10.0)')
+2024-08-21 17:08:16,320 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff939fd9d0>: Failed to establish a new connection: [Errno 111] Connection refused
+2024-08-21 17:09:16,322 - ERROR - Error fetching data from InfluxDB: <urllib3.connection.HTTPConnection object at 0x7fff939fda90>: Failed to establish a new connection: [Errno 111] Connection refused
